@@ -3,16 +3,15 @@ public class Atleta{
     private String nome;
     private double recorde;
     private Esporte esporte;
-    private Tipo tipo;
+  
 
-    public Atleta(int codigo, String nome, double recorde, Esporte esporte, Tipo tipo){
-        this.codigo = codigo;
-        this.nome = nome;
-        this.recorde = recorde;
-        this.esporte = esporte;
-        this.tipo = tipo;
+    // public Atleta(int codigo, String nome, double recorde, Esporte esporte){
+    //     this.codigo = codigo;
+    //     this.nome = nome;
+    //     this.recorde = recorde;
+    //     this.esporte = esporte;
         
-    }
+    // }
 
     void setCodigo(int codigo){
         this.codigo = codigo;
@@ -46,11 +45,5 @@ public class Atleta{
         return esporte;
     }
 
-    void setTipo(Tipo tipo){
-        this.tipo = tipo;
-    }
-
-    Tipo geTipo(){
-        return tipo;
-    }
 }
+
